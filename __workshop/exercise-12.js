@@ -1,6 +1,6 @@
 const exercise13 = require("./exercise-13");
 
-function exercise12() {
+function exercise12() 
   // Exercise 12
   //
   // Write a program that generates a list of all prime numbers from 1 and 200.
@@ -17,6 +17,12 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for(let i=0;i<=200;i++){
+    if(math.isPrime(i)){
+      console.log(i);
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
@@ -25,7 +31,7 @@ function exercise12() {
   //
   //
   //
-}
+
 
 // Once you are done type the following in the terminal to test your answer(s).
 // yarn test exercise-12

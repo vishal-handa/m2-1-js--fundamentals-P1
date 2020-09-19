@@ -13,9 +13,9 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  let myarray=new Array();
+  let output='';
   for(let i=0;i<=5;i++){
-
+      console.log(output+='#');
   }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
