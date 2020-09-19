@@ -23,6 +23,25 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  for(i=8; i<=17; i++){
+    if(i===9){
+      console.log(`Get up you buggers! It's ${i}h. Time to train!`);
+    }
+    else if(i===10){
+      console.log(`It's ${i}h. Keep on training!`);
+    }
+    else if(i===11){
+      console.log(`It's ${i}h. Keep on training! LOL`);
+    }
+    else if(i===12){
+      console.log(`It's ${i}h. Alright you can eat.`);
+    }
+    else if(i===13){
+      console.log(`Too much food! It's ${i}h. Get out there and load bricks. `);
+    }
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

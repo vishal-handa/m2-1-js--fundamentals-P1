@@ -13,6 +13,10 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let myarray=new Array();
+  for(let i=0;i<=5;i++){
+
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

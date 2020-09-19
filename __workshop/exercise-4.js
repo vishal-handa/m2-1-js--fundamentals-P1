@@ -10,6 +10,8 @@ function exercise4() {
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
   for (let number = 0; number < 12; number++) {
+    let square=1;
+    square=number*number;
     console.log(square);
   }
   // -----------------------------------------------------------------
