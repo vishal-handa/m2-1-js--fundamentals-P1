@@ -17,12 +17,6 @@ function exercise12()
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  for(let i=0;i<=200;i++){
-    if(math.isPrime(i)){
-      console.log(i);
-    }
-  }
-
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

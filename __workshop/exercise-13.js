@@ -20,6 +20,14 @@ function exercise13() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let a = [0, 1];
+  let b = [];
+  
+  for(let i = 2; i <= 70; i++) {
+    a[i] = a[i - 1] + a[i - 2]; 
+    b.push(a[i]);
+  }
+  console.log(b[48]);//because the first two numbers are already in a[].
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

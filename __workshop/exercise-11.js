@@ -15,13 +15,22 @@ function exercise11() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-  for(let i=0;i<8;i++){
-    if(i%2===0){
-      console.log('#_#_#_#_');
+ 
+  let output='';
+  for(let i=0;i<8;i++){             //row
+    for(let j=0;j<8;j++){           //column
+      if(i%2===0 && j%2===0){
+        output+='#';
+      }
+      else if(!(i%2===0) && !(j%2===0)){
+        output+='#';
+      }
+      else{
+        output+='_';
+      }
+      console.log(output);
     }
-    else{
-      console.log('_#_#_#_#');
-    }
+    console.log("\n");
   }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
