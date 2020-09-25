@@ -14,7 +14,7 @@ function question1() {
   console.log("1.6. (x)"); /* 'Yes I\'ll eat salad' */
   console.log("1.7. (x)"); /* "I'm happy to hear that!" */
   console.log("1.8. (x)"); /* "\"Happy to hear " + 'that" ' + "he says!" */
-  console.log("1.9. (x)"); /* “Hello world!” */
+  console.log("1.9. ( )"); /* “Hello world!” */
 }
 
 function question2() {
@@ -37,7 +37,7 @@ function question3() {
 
   console.log("3.1. (x)"); /* !0         */
   console.log("3.2. ( )"); /* !1         */
-  console.log("3.3. ( )"); /* -1         */
+  console.log("3.3. (x)"); /* -1         */
   console.log("3.4. ( )"); /* !"hello!"  */
   console.log("3.5. ( )"); /* null       */
   console.log("3.6. (x)"); /* !undefined */
@@ -65,13 +65,13 @@ function question5() {
   console.log("5.1. Number of elements (3)", ["string", "number", "string"]);
 
   // 5.2. [[], 24, 'hello', true]
-  console.log("5.2. Number of elements (4)", [null", "number","string", "boolean"]);
+  console.log("5.2. Number of elements (4)", ["array", "number","string", "boolean"]);
 
   // 5.3. []
-  console.log("5.3. Number of elements (0)", ["null"]);
+  console.log("5.3. Number of elements (0)", []);
 
   // 5.4. [['romeo', 'juliet'], false]
-  console.log("5.4. Number of elements (2)", [['string', 'string'], 'boolean']);
+  console.log("5.4. Number of elements (2)", ["array", 'boolean']);
 
   // 5.5. [{name: 'bob', age: 23}, {name: 'paul', age: 33}]
   console.log("5.5. Number of elements (2)", ['object', 'object']);
@@ -92,7 +92,7 @@ function question6() {
   console.log("6.3.", "boolean", false);
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.", "array", object, object);
+  console.log("6.4.", "array", [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]);
 }
 
 // Once you are done type the following in the terminal to test your answer(s).
