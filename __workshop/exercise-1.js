@@ -1,4 +1,4 @@
-`// Types
+// Types
 
 function question1() {
   // Question 1:
@@ -106,4 +106,3 @@ module.exports = {
   question5,
   question6,
 };
-`
